@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      #仓库地址，也就是server的地址
+      uri: http://127.0.0.1:8088
+      #分支
+      laber: master
+      # 对应 {application} 部分
+      name: system
+      # 对应 {profile} 部分
+      profile: online
+
